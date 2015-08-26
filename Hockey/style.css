@@ -1,0 +1,134 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: #444444;
+}
+
+canvas {
+	background: url('rink2.png');
+	margin-top: 3px;
+}
+
+.border {
+	width: 1086px;
+	height: 584px;
+	background: #000000;
+	margin-top: 20px;
+}
+
+.pic {
+	position: absolute;
+	width: 1080px;
+	height: 578px;
+	background: url('rink2.png');
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+.imgs1 {
+    position: absolute;
+    top: 55px;
+    z-index: 2;
+    overflow: hidden;
+    margin: 0 auto;
+    left: 0;
+    right: 0; 
+  opacity: 0.9;
+}
+
+.imgs2 {
+    position: absolute;
+    top: 185px;
+    z-index: 2;
+    overflow: hidden;
+    margin: 0 auto;
+    left: 0;
+    right: 0; 
+  opacity: 0.9;
+}
+
+.block {
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    overflow: hidden;
+    margin: 0 auto;
+    left: 0;
+    right: 0;	
+	width: 1080px;
+	height: 578px;
+	background: url('texture.jpg');
+	opacity: 0.70;
+}
+
+.text {
+	position: absolute;
+	width: 680px;
+	height: 478px;
+}
+
+.scoreBoard {
+	position: absolute;
+    top: 15px;
+    z-index: 2;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+	margin-top: 240px;
+	font-size: 36px;
+	font-family: arial black;
+	color: #000000;
+}
+
+p {
+	color: #FFFFFF;
+	font-family: helvetica;
+  margin: 1px;
+}
+
+.countdown {
+  position: absolute;
+    top: 15px;
+    z-index: 2;
+    width: 205px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  margin-top: 140px;
+  font-size: 200px;
+  font-family: arial black;
+  color: #FE0000;
+}
+
+.btn {
+  background: #e0e0e0;
+  background-image: -webkit-linear-gradient(top, #e0e0e0, #5c5c5c);
+  background-image: -moz-linear-gradient(top, #e0e0e0, #5c5c5c);
+  background-image: -ms-linear-gradient(top, #e0e0e0, #5c5c5c);
+  background-image: -o-linear-gradient(top, #e0e0e0, #5c5c5c);
+  background-image: linear-gradient(to bottom, #e0e0e0, #5c5c5c);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #ff4f4f;
+  background-image: -webkit-linear-gradient(top, #ff4f4f, #574b4b);
+  background-image: -moz-linear-gradient(top, #ff4f4f, #574b4b);
+  background-image: -ms-linear-gradient(top, #ff4f4f, #574b4b);
+  background-image: -o-linear-gradient(top, #ff4f4f, #574b4b);
+  background-image: linear-gradient(to bottom, #ff4f4f, #574b4b);
+  text-decoration: none;
+}
