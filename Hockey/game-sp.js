@@ -582,9 +582,15 @@ function draw() {
     function speedUp(){
         if (dx < 0){
             dx--;
+            if (dx < -20){
+                dx = -18;
+            }
         }
         else if (dx > 0){
             dx++;
+            if (dx > 20){
+                dx = 18;
+            }
         }
         return dx;
     }
